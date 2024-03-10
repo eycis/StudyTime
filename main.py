@@ -160,11 +160,11 @@ def records():
 
 
 def share():
-    API_KEY= "9BEsm0BWZfvpFNybGpCk6uAJN"
-    API_KEY_SECRET = "Ezg48qFF8er9PL24lQa1BFiOueAHS2bW3aar2kIz6WL1uyXSiv"
+    API_KEY= ""
+    API_KEY_SECRET = ""
 
-    ACCESS_TOKEN="1364558905729306629-OQJXGbQiwg3h8J2dQTLFJcUIXtpjIo"
-    ACCESS_TOKEN_SECRET = "FB6Kvg71t42w6ctu7Dy25K0iBgwgeYCynA1dOOOeVM6dI"
+    ACCESS_TOKEN=""
+    ACCESS_TOKEN_SECRET = ""
 
     auth = tweepy.OAuthHandler(API_KEY, API_KEY_SECRET)
     auth.set_access_token(ACCESS_TOKEN, ACCESS_TOKEN_SECRET)
@@ -190,11 +190,11 @@ def get_tweets():
     tweets.geometry("500x500")
     tweets.title("studyTimer tweets")
 
-    API_KEY= "9BEsm0BWZfvpFNybGpCk6uAJN"
-    API_KEY_SECRET = "Ezg48qFF8er9PL24lQa1BFiOueAHS2bW3aar2kIz6WL1uyXSiv"
+    API_KEY= ""
+    API_KEY_SECRET = ""
 
-    ACCESS_TOKEN="1364558905729306629-OQJXGbQiwg3h8J2dQTLFJcUIXtpjIo"
-    ACCESS_TOKEN_SECRET = "FB6Kvg71t42w6ctu7Dy25K0iBgwgeYCynA1dOOOeVM6dI"
+    ACCESS_TOKEN=""
+    ACCESS_TOKEN_SECRET = ""
     
     auth = tweepy.OAuthHandler(API_KEY, API_KEY_SECRET)
     auth.set_access_token(ACCESS_TOKEN,ACCESS_TOKEN_SECRET)
